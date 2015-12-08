@@ -1,0 +1,8 @@
+TextContent = 
+{
+	ZilchScriptBuilder = 
+	{
+		string Name = "DualMovement",
+		uint64 ResourceId = 5670a68aeefac318,
+	},
+},
