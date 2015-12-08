@@ -1,0 +1,52 @@
+class DualPlayerMove : ZilchComponent
+{
+            var Controlling : Boolean = false;
+    function Initialize(init : CogInitializer)
+    {
+        Zero.Connect(this.Space, Events.LogicUpdate, this.OnLogicUpdate);
+        if(this.Owner.Name == ("Player"))
+        {
+            this.Controlling = true;
+        }
+    }
+
+    function OnLogicUpdate(event : UpdateEvent)
+    {   //Switches Conrolling character/camera when that is enabled
+        if(Zero.Keyboard.KeyIsPressed(Keys.Space))
+        {
+            if(this.Controlling == false)
+            {
+                this.Controlling = true;
+            }
+            else(this.Controlling = false);
+        }
+        
+            //this.Owner.Transform.Translation = this.Space.FindObjectByName("Player").Transform.Translation;
+            //this.Owner.Transform.Translation = this.Space.FindObjectByName("Player2").Transform.Translation;
+        //make this character do things
+        if(this.Controlling == true)
+        {
+                    
+        var movement = Real3(0,0,0);
+        
+        if(Zero.Keyboard.KeyIsPressed(Keys.W))
+        {
+            this.Owner.SweptController.Jump();
+        }
+        
+        if(Zero.Keyboard.KeyIsDown(Keys.A))
+        {
+            movement.X -= 1;
+        }
+        
+        if(Zero.Keyboard.KeyIsDown(Keys.D))
+        {
+            movement.X += 1;
+        }
+        this.Owner.SweptController.Update(movement, event.Dt);
+        }
+        
+        //make this character follow w/out being obstructed
+ 
+    }
+}
