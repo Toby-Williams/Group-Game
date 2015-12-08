@@ -1,4 +1,4 @@
-class CameraSwitch : ZilchComponent
+class CameraSwitch2 : ZilchComponent
 {
     function Initialize(init : CogInitializer)
     {
@@ -7,14 +7,12 @@ class CameraSwitch : ZilchComponent
     function OnKeyDown(event : KeyboardEvent)
     {
         
-        if(event.Key == Keys.Up)
+        if(event.Key == Keys.Down)
             {
         var temp = this.Owner.Transform.Translation;
             Console.WriteLine(temp.Y);
-            temp.Y +=10;
+            temp.Y -=10;
             this.Owner.Transform.Translation = temp;
-                }
-            }
-        }
-
-
+        }  
+   }
+}

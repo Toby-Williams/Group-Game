@@ -148,7 +148,7 @@ Level =
 		Transform = 
 		{
 			Vec3 Translation = [0, 0, 40],
-			Vec3 Scale = [0.705261827, 0.705261827, 0.705261827],
+			Vec3 Scale = [1, 1, 1],
 			Quat Rotation = [0, 0, 0, 1],
 		},
 		Camera = 
@@ -168,6 +168,9 @@ Level =
 		CameraSwitch = 
 		{
 		},
+		CameraSwitch2 = 
+		{
+		},
 	},
 	Cog = 
 	{
@@ -181,8 +184,8 @@ Level =
 		},
 		Transform = 
 		{
-			Vec3 Translation = [-0.126315713, 4.3578949, 0],
-			Vec3 Scale = [13.1320009, 4.22417498, 1],
+			Vec3 Translation = [-0.184277654, 6.1686964, 5.33738991e-008],
+			Vec3 Scale = [15.0973873, 3.9824326, 1],
 			Quat Rotation = [0, 0, 0, 1],
 		},
 		Sprite = 
