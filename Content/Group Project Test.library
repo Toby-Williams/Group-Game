@@ -1,0 +1,7 @@
+ContentLibrary = 
+{
+	string Name = "Group Project Test",
+	uint64 LibraryId = 5670c78dedd4e4dc,
+	string SourceControlType = "",
+	bool ReadOnly = false,
+},

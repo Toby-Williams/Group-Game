@@ -1,0 +1,8 @@
+TextContent = 
+{
+	ZilchScriptBuilder = 
+	{
+		string Name = "CameraSwitch",
+		uint64 ResourceId = 5670c7d4f982a24e,
+	},
+},

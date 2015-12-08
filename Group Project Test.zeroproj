@@ -1,0 +1,28 @@
+Cog = 
+{
+	Project = 
+	{
+		string ProjectName = "Group Project Test",
+		string ProjectOwner = "",
+		string DefaultLevel = "Level",
+		string ProjectSpace = "Space",
+		string ProjectFolder = "C:\Users\17.Tobias.Williams\Desktop\GitHub\Group Game\Group-Game",
+		uint ProjectEngineRevision = 12494,
+		bool AutoTakeProjectScreenshot = true,
+	},
+	EditorSettings = 
+	{
+		EditorMode EditorMode = Mode2D,
+		bool ViewCube = true,
+		float ViewCubeViewportSize = 150,
+		ScriptReloadMethod ScriptReloadEditor = ReInitializeObjects,
+		ScriptReloadMethod ScriptReloadGame = PatchObjects,
+		bool AutoUpdateContentChanges = true,
+	},
+	ProjectDescription = 
+	{
+		string ShortDescription = "",
+		string LongDescription = "",
+		string Tags = "",
+	},
+},
