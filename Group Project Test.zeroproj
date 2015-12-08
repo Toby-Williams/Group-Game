@@ -6,8 +6,8 @@ Cog =
 		string ProjectOwner = "",
 		string DefaultLevel = "Level",
 		string ProjectSpace = "Space",
-		string ProjectFolder = "C:\Users\17.dakota.reed\Desktop\GitHub\Group-Game",
-		uint ProjectEngineRevision = 12624,
+		string ProjectFolder = "C:\Users\17.Tobias.Williams\Desktop\GitHub\Group Game\Group-Game",
+		uint ProjectEngineRevision = 12494,
 		bool AutoTakeProjectScreenshot = true,
 	},
 	EditorSettings = 
